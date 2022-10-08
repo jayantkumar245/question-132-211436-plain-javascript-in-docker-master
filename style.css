@@ -1,0 +1,52 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100vh;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 100px auto;
+}
+.container .title h2{
+    font-size: 30px;
+    background-color: black;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+}
+.display input[type=text] {
+    width: 95%;
+    padding: 15px 15px 15px 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: right;
+    font-size: 20px;
+}
+.operations{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.operations button{
+    font-size: 15px;
+    height: 45px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px;
+}
+.function{
+ background-color: red;
+}
+.number:hover{
+    background-color: darkorange;
+}
+.solution{
+    background-color: rgb(0, 128, 117);
+}
+.operations .zero{
+    grid-column: 1 / span 2;
+}
